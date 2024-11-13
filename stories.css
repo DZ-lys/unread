@@ -1,11 +1,6 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 /* page stories*/
 .stories{
-    max-width: 1650px;
+    max-width: 90%;
     height: 525px;
     margin: auto;
     margin-top: 20px;
@@ -308,9 +303,14 @@
     display: flex;
     justify-content: space-between;
     margin: auto;
+    margin-top: 80px;
 }
 .calander h3{
     font-family: 'SF Display', sans-serif;
     font-weight: 300;
     color: #a6a6a6;
+}
+.calander h3:hover{
+    color: #0078f6;
+    cursor: pointer;
 }

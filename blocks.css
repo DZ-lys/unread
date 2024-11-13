@@ -1,0 +1,65 @@
+.Blocks{
+    max-height: 2000px;
+    width: 1120px;
+    margin: auto;
+    margin-top: 50px;
+}
+.Btop-1{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.Big-blocks{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.Small-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.big-block{
+    width: 550px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    border-radius: 20px;
+}
+.square-block{
+    width: 265px;
+    height: 265px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.tall-block{
+    width: 265px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    border-radius: 20px;
+}
+.Bbot-1{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+.Bbot-2{
+    display: flex;
+    gap: 20px;
+}
+.Bbot-3{
+    display: flex;
+    gap: 20px;
+}
+.Blocks img{
+    flex-shrink: 0;
+    min-width: 100%;
+    height: 100%;
+    position: relative;
+}
+.Block-title{
+    position: absolute;
+    width: 400px;
+}
