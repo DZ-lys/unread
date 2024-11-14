@@ -211,7 +211,7 @@
 }
 .Posts:hover{
     top: -10px;
-    background: linear-gradient(180deg, rgba(60,60,60,0) 50%, rgba(60, 60, 60, 0.187) 90%);   
+    box-shadow: 10px 10px 5px #00000029;
     border-radius: 30px;
 }   
 .Posts:nth-child(even){
