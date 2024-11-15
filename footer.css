@@ -2,19 +2,84 @@
 .footer-background{
     background-color: #000;
     width: 100%;
-    height: 1200px;
+    height: 800px;
+    display: flex;
+    margin-top: 40px;
 }
 .footer{
     background-color: blueviolet;
     width: 85%;
+    height: 550px;
     margin: auto;
 }
 .footer-Plogo{
     width: 150px;
     height: 25px;
-    margin-top: 8px;
     margin-right: 40px;
 }
 .footer-Plogo img{
     width: 100%;
+}
+.applications{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+.apply{
+    background-color: rgba(130, 146, 146, 0.227);
+    width: 325px;
+    height: 90px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.apply h6{
+    font-family: 'SF Display', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.4;
+    letter-spacing: 0.4px;
+}
+.apply h4{
+    font-family: 'SF Display', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 0.3px;
+}
+.apply p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+.arrow-button div{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.download-link{
+    display: flex;
+    gap: 20px;
+}
+.download{
+    width: 143px;
+    height: 45px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.download img{
+    flex-shrink: 0;
+    min-width: 100%;
+    height: 100%;
 }
