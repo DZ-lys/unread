@@ -2,15 +2,19 @@
 .footer-background{
     background-color: #000;
     width: 100%;
-    height: 800px;
+    height: 700px;
     display: flex;
     margin-top: 40px;
 }
 .footer{
-    background-color: blueviolet;
+
     width: 85%;
-    height: 550px;
+    height: 400px;
     margin: auto;
+}
+.foot-main{
+    display: flex;
+    gap: 20%;
 }
 .footer-Plogo{
     width: 150px;
@@ -20,6 +24,9 @@
 .footer-Plogo img{
     width: 100%;
 }
+.footer-Plogo:hover{
+    cursor: pointer;
+}
 .applications{
     display: flex;
     flex-direction: column;
@@ -27,13 +34,27 @@
     margin-top: 30px;
 }
 .apply{
-    background-color: rgba(130, 146, 146, 0.227);
+    background-color: rgba(130, 146, 146, 0.055);
     width: 325px;
     height: 90px;
     border-radius: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+    right: 0;
+    transition: right ease 0.3s;
+}
+.apply:hover{
+    cursor: pointer;
+    right: -10px;
+    box-shadow: 10px 10px 5px #00000053;
+}
+.apply:hover .arrow-button{
+    background-color: #0b19e6;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
 }
 .apply h6{
     font-family: 'SF Display', sans-serif;
@@ -46,7 +67,7 @@
 .apply h4{
     font-family: 'SF Display', sans-serif;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     letter-spacing: 0.3px;
 }
@@ -78,8 +99,119 @@
     border-radius: 5px;
     margin-top: 50px;
 }
+.download:hover{
+    cursor: pointer;
+}
 .download img{
     flex-shrink: 0;
     min-width: 100%;
     height: 100%;
+}
+
+/* footer right side */
+
+.more-interaction{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.more-interaction h4 {
+    font-family: 'SF Display', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.3px;
+}
+.more-interaction h4:hover {
+    cursor: pointer;
+    color: #ffffffa1;
+}
+.white-dot{
+    background-color: rgb(255, 255, 255);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+.copyright {
+    margin-top: 50px;
+    width: 500px;
+}
+.copyright p{
+    color: #ffffff73;
+    font-family: 'SF Display', sans-serif;
+    font-size: 12px;
+}
+.information{
+    display: flex;
+    gap: 50px;
+}
+.corner1{
+    margin-top: 50px;
+}
+.companys{
+    display: flex;
+    gap: 60px;
+}
+.corner1 h4{
+    font-family: 'SF Display', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #0078f6;
+}
+.corner1 p{
+    color: #ffffff73;
+    font-family: 'SF Display', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    margin-top: 13px;
+    position: relative;
+    right: 0;
+    transition: right ease 0.3s;
+}
+.corner1 p:hover{
+    cursor: pointer;
+    color: #fff;
+    right: -5px;   
+}
+.corner2 {
+    margin-top: 50px;
+}
+.corner2 h4{
+    font-family: 'SF Display', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #0078f6;
+}
+.company-info p{
+    color: #ffffff73;
+    font-family: 'SF Display', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    width: 150px;
+    letter-spacing: 0.8px;
+    margin-top: 13px;
+}
+.link p{
+    color: #ffffff73;
+    font-family: 'SF Display', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    width: 150px;
+    letter-spacing: 0.8px;
+    margin-top: 40px;
+}
+.corner2 h6{
+    margin-top: 15px;
+    color: #fff;
+    font-family: 'SF Display', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    position: relative;
+    right: 0;
+    transition: right ease 0.3s;
+}
+.corner2 h6:hover{
+    cursor: pointer;
+    right: -5px;
 }
